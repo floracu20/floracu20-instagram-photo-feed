@@ -1,0 +1,72 @@
+body{
+    background: rgb(203, 200, 200);
+    margin: 0;
+    font-family: "Roboto";
+    padding-bottom: 40px;
+}
+
+header{
+    background: white;
+    padding: 12px;
+}
+
+header h1{
+    margin: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+div.post{
+    background: white;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+div.post img{
+    width: 100%;
+}
+
+div.post h2{
+    padding: 10px;
+    margin: 0;
+}
+
+div.post p{
+    padding: 10px;
+    margin: 0;
+}
+
+div.container{
+    width: 600px;
+    margin: auto;
+}
+
+div.piedefoto{
+    padding-bottom: 10px;
+}
+
+div.post .postHeader div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+
+div.post .postHeader div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: gray;
+}
+
+div.post .piedefoto div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+
+div.post .piedefoto div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+}
